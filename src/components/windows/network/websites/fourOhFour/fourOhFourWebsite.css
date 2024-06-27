@@ -1,0 +1,13 @@
+.fourohfour__website
+{
+    background-color: white;
+}
+
+.fourohfour__website h1,
+.fourohfour__website p,
+.fourohfour__website a,
+.fourohfour__website hr
+{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

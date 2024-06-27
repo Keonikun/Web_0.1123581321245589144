@@ -1,0 +1,28 @@
+.desktop__icon
+{
+    position: relative;
+    width: 10vh;
+    height: 11%;
+    margin: 1%;
+}
+
+.desktop__icon:hover
+{
+    background-color: #ffffff31;
+}
+
+.desktop__icon__image
+{
+    position: absolute;
+    height: 70%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.desktop__icon__subtitle
+{
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%);
+}

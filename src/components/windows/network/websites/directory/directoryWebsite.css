@@ -1,0 +1,28 @@
+.directory__website
+{
+    background-color: white;
+}
+
+.directory__website__grid__title
+{
+    padding-left: 2rem;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 20%);
+}
+
+.directory__website__grid
+{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 20%);
+}
+
+.directory__website__grid p
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

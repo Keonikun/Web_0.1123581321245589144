@@ -1,0 +1,73 @@
+.wiki 
+{
+  background-color: white;
+  padding: 1rem;
+}
+
+.wiki__header{
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.wiki__logo{
+  width: 4rem;
+  height: 4rem;
+  -webkit-filter: brightness(0);
+}
+
+.wiki__title{
+  font-size: 3.5rem;
+  font-style: italic;
+}
+
+.wiki__topic__title{
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.wiki__content{
+  display: flex;
+  padding-top: 1rem;
+}
+
+.wiki__paragraph{
+  width: 65%;
+  margin-right: 5%;
+  cursor: text;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+}
+
+.wiki__panel{
+  background-color: rgb(231, 231, 231);
+  width: 30%;
+  border: 1px solid grey;
+  text-align: center;
+}
+
+.wiki__panel__image {
+  width: 90%;
+  border: 1px solid grey;
+}
+
+.wiki__panel__fact {
+  padding-top: 1rem;
+  display: flex;
+  padding: 0.5rem;
+}
+
+.wiki__panel__fact h2 {
+  padding-right: 0.5rem;
+  font-size: 1rem;
+  width: 30%;
+  text-align: left;
+}
+
+.wiki__footer {
+  padding-top: 1rem;
+}
+
+.wiki__footer ul li {
+  padding: 0.2rem;
+  font-size: 1.5rem;
+}
