@@ -1,0 +1,57 @@
+.installation__tool
+{
+    width: 80%;
+    height: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.installation__tool__contents
+{
+    height: 80%;
+    width: 100%;
+}
+
+.installation__tool__buttons
+{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.installation__tool__forward
+{
+    float: right;
+}
+
+.installation__header
+{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.installation__header__line
+{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.installation__split
+{
+    display: flex;
+    margin: 1rem;
+    height: 82%;
+}
+
+.installation__split div
+{
+    width: 50%;
+    overflow: hidden;
+}
+
+.installation__instructions
+{
+    margin-left: 1rem;
+}

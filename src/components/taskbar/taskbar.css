@@ -84,7 +84,7 @@
 {
     z-index: 1;
     transform: translate(0,-100%);
-    width: 30%;
+    width: 20%;
     background-color: var(--window__color);
     border-top: var(--border__top);
     border-left: var(--border__left);

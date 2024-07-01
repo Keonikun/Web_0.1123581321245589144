@@ -74,7 +74,7 @@ const Network = (props) => {
   const closeDoorWebsite = () => { setDoorWebsite(false) }
 
   // 404 WEBSITE-----------------------------------------
-  const [ fourOhFourWebsite, setFourOhFourWebsite ] = useState(false)
+  const [ fourOhFourWebsite, setFourOhFourWebsite ] = useState(true)
   const openFourOhFourWebsite = () => 
   { 
     animateLoadingBar()
@@ -87,7 +87,7 @@ const Network = (props) => {
 
   // CAPTCHA WEBSITE -----------------------------------------
 
-  const [ captchaWebsite, setCaptchaWebsite ] = useState(true)
+  const [ captchaWebsite, setCaptchaWebsite ] = useState(false)
   const openCaptchaWebsite = () => 
   { 
     animateLoadingBar()

@@ -5,6 +5,7 @@
     width: 100%;
     background-color: black;
     overflow-y: hidden;
+    cursor: none;
 }
 
 .desktop__background
@@ -17,6 +18,7 @@
     transform: translate(-50%);
     background-color: var(--desktop__background);
     overflow: hidden;
+    cursor: url('../../assets/cursors/cursor.cur'), default;
 }
 
 .desktop__container
@@ -24,4 +26,32 @@
     position: absolute;
     width: 100%;
     height: 96%;
+}
+
+.static__overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100001;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    mix-blend-mode: multiply;
+    background-image: url('../../assets/images/computerNoise.gif');
+    background-size: 4em;
+    pointer-events: none;
+}
+
+.vignette__overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    mix-blend-mode: multiply;
+    pointer-events: none;
 }

@@ -5,7 +5,7 @@
     border-left: var(--border__left);
     border-right: var(--border__right);
     border-bottom: var(--border__bottom); 
-
+    font-family: var(--default-font);
     position: absolute;
 }
 
@@ -75,12 +75,14 @@
 {
     width: 100px;
     line-height: 2.5vh;
+    background-color: var(--window__color);
     border-top: var(--border__top);
     border-left: var(--border__left);
     border-right: var(--border__right);
     border-bottom: var(--border__bottom); 
     cursor: pointer;
     text-align: center;
+    font-family: var(--default-font);
 }
 
 .window__button span
@@ -93,6 +95,14 @@
 .window__button:hover
 {
     background-color: var(--window__darkened);
+    border-top: var(--border__bottom);
+    border-left: var(--border__right);
+    border-right: var(--border__left);
+    border-bottom: var(--border__top); 
+}
+
+.window__inset
+{
     border-top: var(--border__bottom);
     border-left: var(--border__right);
     border-right: var(--border__left);

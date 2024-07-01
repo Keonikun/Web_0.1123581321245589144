@@ -196,10 +196,10 @@ button:focus
 
 /* ======== CURSOR ======== */
 
-html, body
+/* html, body
 {
   cursor: url('./assets/cursors/cursor.cur'), default;
-}
+} */
 
 /* ======= LAYOUT ======= */
 
